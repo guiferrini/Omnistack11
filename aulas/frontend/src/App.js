@@ -2,11 +2,11 @@ import React from 'react';
 
 import './global.css';
 
-import Logon from './pages/Logon'; //n precisa /index, pq sempre q importa uma pasta o import procura por js
+import Routes from './routes';
 
 function App() {
   return (
-    <Logon />
+    <Routes />
     );
 }
 
